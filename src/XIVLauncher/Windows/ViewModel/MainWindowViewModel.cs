@@ -146,7 +146,6 @@ namespace XIVLauncher.Windows.ViewModel
                                                                      "\n") + Loc.Localize("SteamLinkingText", "You may be prompted to link your Steam account to your Square Enix account.")
                     , "XIVLauncher", MessageBoxButton.OK, MessageBoxImage.None, showHelpLinks: false, showDiscordLink: true, showOfficialLauncher: true);
 
-                Environment.Exit(0);
                 return;
             }
             /* =================================================== */
